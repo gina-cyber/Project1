@@ -7,7 +7,7 @@ class Guessing_Game:
       solution = random.randint(1,10)
     
       Number_Of_Guess = 5
-      Attempts=0
+      Attempts = 0
     
       while Attempts < Number_Of_Guess:
         Attempts=Attempts+1
@@ -17,7 +17,7 @@ class Guessing_Game:
         if guess < solution:
           print("try guessing higher")
         elif guess > solution:
-          print("try guessing  lower")
+          print("try guessing lower")
         else:
           print(f'Good job. It took {Attempts} attempts!') 
 
