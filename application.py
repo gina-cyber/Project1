@@ -1,8 +1,7 @@
 # This is a guess the number game.
 import random
 
-def Guessing_Game:
-    def __init__(self):
+def main:
         print("Welcome to Numbers Guessing Game!!!")
         solution = random.randint(1,10)
    
@@ -36,4 +35,4 @@ def Guessing_Game:
 
 if __name__ == "__main__":
 
-      Guessing_Game()
+     
