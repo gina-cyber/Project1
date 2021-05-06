@@ -28,10 +28,11 @@ def start_game():
             print(f'Good job. It took {Attempts} attempts!')
             got_answer=True
             break
-        if (got_answer==False):
-           print(f'Sorry, you guessed the max times {Attempts}. Try playing again')
-
-if __name__ == "__main__":
-
-      def end_game():
+      
+        def end_game():
           Print("Game ends here.")
+        
+    if __name__ == "__main__":
+        start_game()
+        end_game()
+
