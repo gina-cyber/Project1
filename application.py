@@ -25,16 +25,16 @@ def start_game():
         elif guess > solution:
             print("try guessing  lower")
         else:
-            print(f'Good job. It took {Attempts} attempts!')
+            print(f'Good job. It took {Attempts} attempts to guess {solution}!')
             got_answer=True
             break
-        if (got_answer==False):
+            
+    if (got_answer==False):
             print(f'Sorry, you guessed the max times {Attempts}. Try playing again')
-      
+       
 def end_game():
      print("Game ends here.")
         
 if __name__ == "__main__":
     start_game()
-    end_game():
-        
+    end_game()
