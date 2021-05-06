@@ -31,11 +31,10 @@ def start_game():
         if (got_answer==False):
             print(f'Sorry, you guessed the max times {Attempts}. Try playing again')
       
-        def end_game():
-          Print("Game ends here.")
+def end_game():
+     print("Game ends here.")
         
 if __name__ == "__main__":
     start_game()
     end_game():
-        print ("The game ends here".)
-
+        
